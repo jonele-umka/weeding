@@ -1,0 +1,43 @@
+.addressBlock {
+  padding: 40px 20px;
+  background: #f7f7f7;
+}
+.addressContent {
+  background: #fff;
+  padding: 30px 20px;
+  margin-bottom: 40px;
+}
+
+.addressTitle h1 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.addressText {
+  display: flex;
+  column-gap: 40px;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.addressDate h2 {
+  font-size: 14px;
+}
+.address h2 {
+  font-size: 16px;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+.address h2 span{
+  font-weight: 600;
+}
+.address h3 {
+  margin-bottom: 15px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.address p {
+  font-size: 14px;
+  line-height: 22px;
+  color: rgb(116, 116, 116);
+}

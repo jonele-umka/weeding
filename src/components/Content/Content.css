@@ -1,0 +1,32 @@
+.content {
+  background: #f7f7f7;
+  padding: 40px 20px;
+}
+
+.content-box {
+  background: #fff;
+  padding: 30px 20px;
+}
+.content-title {
+  margin-bottom: 20px;
+}
+.content-title h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.content-title p {
+  text-align: center;
+  line-height: 30px;
+}
+.content-box img {
+  width: 100%;
+}
+.content-address {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.content-address p {
+  text-align: center;
+}

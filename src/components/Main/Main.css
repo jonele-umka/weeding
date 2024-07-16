@@ -1,0 +1,149 @@
+.main {
+  background-image: url("../../assets/Group\ 20428.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  padding: 30px 0;
+}
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin: 20px;
+  box-sizing: border-box;
+}
+
+.svg-border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.svg-border svg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.svg-border .line {
+  stroke-dasharray: 500;
+  stroke-width: 1px;
+  fill: transparent;
+  stroke: #fff;
+  animation: svgAnimation 2.5s linear infinite;
+}
+
+@keyframes svgAnimation {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: 1000;
+  }
+}
+
+.mainText {
+  margin: 0;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+.date h1 {
+  color: #fff;
+  text-align: center;
+}
+/* .date-box {
+  position: absolute;
+  top: -30px;
+  left: -55px;
+  background-color: #1c1c1c;
+  color: #e0e0e0;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  text-align: center;
+} */
+
+.invitationText {
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.names {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 15px;
+  margin-bottom: 10px;
+}
+
+.names h1 {
+  font-weight: 500;
+  font-size: 40px;
+  text-align: center;
+  color: #fff;
+  font-family: "Great Vibes", sans-serif;
+}
+
+.names span {
+  font-weight: normal;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+}
+
+.main-description {
+  background: #f7f7f7;
+  padding: 10px;
+  text-align: center;
+}
+
+.main-description p {
+  font-weight: 200;
+  font-size: 12px;
+  color: rgb(151, 151, 151);
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.main-description h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.main-description h3 {
+  color: rgb(113, 112, 112);
+  font-weight: 200;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.main-description h1 {
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.countdown-container {
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}

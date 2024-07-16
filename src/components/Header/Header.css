@@ -1,0 +1,14 @@
+/* src/components/Header.css */
+.header {
+  /* background: rgba(0, 0, 0, 0.5); */
+  /* padding: 20px; */
+padding-top: 20px;
+}
+
+.header h1 {
+  font-size: 50px;
+  text-align: center;
+  color: #fff;
+  font-weight: normal;
+  font-family: "Great Vibes", sans-serif;
+}
