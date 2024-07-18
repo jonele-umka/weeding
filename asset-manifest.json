@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/weeding/static/css/main.a370c143.css",
-    "main.js": "/weeding/static/js/main.bb000920.js",
+    "main.css": "/weeding/static/css/main.7526c8ba.css",
+    "main.js": "/weeding/static/js/main.89f8af79.js",
     "static/js/453.40063271.chunk.js": "/weeding/static/js/453.40063271.chunk.js",
     "static/media/ттт.png": "/weeding/static/media/ттт.609bd5e61ec84de8006d.png",
     "static/media/Group 20428.png": "/weeding/static/media/Group 20428.656c7de717a457b29208.png",
@@ -14,12 +14,12 @@
     "static/media/name1.png": "/weeding/static/media/name1.a03881d0d38707a09200.png",
     "static/media/name5.png": "/weeding/static/media/name5.f276d2b0cbd75d3ff37a.png",
     "index.html": "/weeding/index.html",
-    "main.a370c143.css.map": "/weeding/static/css/main.a370c143.css.map",
-    "main.bb000920.js.map": "/weeding/static/js/main.bb000920.js.map",
+    "main.7526c8ba.css.map": "/weeding/static/css/main.7526c8ba.css.map",
+    "main.89f8af79.js.map": "/weeding/static/js/main.89f8af79.js.map",
     "453.40063271.chunk.js.map": "/weeding/static/js/453.40063271.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a370c143.css",
-    "static/js/main.bb000920.js"
+    "static/css/main.7526c8ba.css",
+    "static/js/main.89f8af79.js"
   ]
 }
