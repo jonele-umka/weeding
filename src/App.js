@@ -9,6 +9,7 @@ import Content from "./components/Content/Content";
 import Address from "./components/Address/Address";
 import Slider from "./components/Slider/Slider";
 import SliderNames from "./components/Slider/SliderNames/SliderNames";
+import SliderNamesLeft from "./components/Slider/SliderNamesLeft/SliderNamesLeft";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
         <Main />
         <SliderNames />
         <Content />
-        <SliderNames />
+        <SliderNamesLeft />
         <Address />
         <Footer />
       </div>
