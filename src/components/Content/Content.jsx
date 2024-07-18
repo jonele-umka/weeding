@@ -1,11 +1,12 @@
 import React from "react";
 import "./Content.css";
-import mainImg from "../../assets/ттт.png";
+import flower from "../../assets/f.png";
 import Slider from "../Slider/Slider";
 function Content() {
   return (
     <div className="content">
       <div className="content-box">
+        <div className="flower"></div>
         <div className="content-title">
           <h1>Кадырлуу конок</h1>
           <p>

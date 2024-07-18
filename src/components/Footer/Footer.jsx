@@ -4,7 +4,9 @@ import "./Footer.css";
 
 const Footer = () => (
   <footer className="footer">
-    <p className="footer-text">Биз сизди чыдамсыздык менен күтөбүз!</p>
+    <div className='footerBlock'>
+      <p className="footer-text">Биз сизди чыдамсыздык менен күтөбүз!</p>
+    </div>
   </footer>
 );
 
